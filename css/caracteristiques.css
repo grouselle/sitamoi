@@ -1,0 +1,192 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#content{
+	min-height:calc(100vh - 70px);
+}
+
+header{
+	position:relative;
+	width:100%;
+	height:150px;
+	display:block;
+	font-family:'Game Of Squids';
+	font-size:26px;
+
+}
+video{
+	height:20vh;
+	width:100vw;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	object-fit:cover;
+	z-index:-3;
+}
+#logo{
+	width:20%;
+	height:150px;
+	float:left;
+	margin-top:50px;
+	margin-left:50px;
+	
+}
+
+#menu{
+	display:block;
+	width:80%;
+	height:150px;
+	float:left;
+	position:fixed;
+	font-family:'Game Of Squids';
+	margin-top:20px;
+	margin-left:200px;
+}
+
+.tout{
+	position:relative;
+	height:150px;
+}
+
+.tout li:hover ul{
+	display:block;
+}
+
+ul{
+	margin:0;
+	liste-style-type:none;
+}
+
+li{
+	display:block;
+	float:left;
+	width:30%;
+	height:60px;
+	text-align:center;
+	line-height:90px;
+	margin-right:20px;
+}
+
+a{
+	color:#fff;
+}
+body{
+	background:url(../image/fdvert.png) no-repeat center center fixed;
+	margin:0;
+	padding:0;
+	z-index:-5;
+	background-size:cover;
+}
+#titre1{
+	width:100%;
+	height:100px;
+	text-align:center;
+	font-size:52px;
+	font-family:'Game Of Squids';
+	margin-top:150px;
+	color:red;
+}
+
+#container{
+	display:block;
+	width:90%;
+	height:auto;
+	margin-top:150px;
+	float:left;
+	border-radius:30px;
+	margin-left:5%;
+	background:rgba(0,0,0,0.5);
+	border:2px solid #000;
+}
+#gallery{
+	display:block;
+	width:96%;
+	height:auto;
+	padding:2%;
+	
+}
+#container .gallery a img{
+	width:15%;
+	height:auto;
+	position:relative;
+	margin:4%;
+
+	
+}
+#text1,#text2,#text3{
+	display:block;
+	float:left;
+	width:20%;
+	height:auto;
+	font-family:'Roboto-Condensed';
+	font-size:30px;
+	padding:2%;
+	margin:80px;
+	margin-top:300px;
+	color:#fff;
+	background:rgba(60,60,60,0.3);
+	border:2px solid #000;
+	border-radius:30px;
+	border-width: 0 4px 8px 12px;
+	text-align:justify;
+}
+
+
+footer{
+	background:#3C3C3B;
+	width:100%;
+	height:150px;
+	display:block;
+	float:left;
+	margin-top:15px;
+	vertical-align:middle;
+	position:relative;
+	bottom:0;
+}
+
+p{
+	width:55%;
+	font-family:'Game Of Squids';
+	font-size:26px;
+	float:left;
+	margin:40px 0 0 50px;
+	color:#fff;
+}
+
+#reseaux{
+	width:30%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    margin:30px;
+	float:left;
+}
+
+#reseaux img{
+    width: 50px;
+}
+@media screen and (max-width:1064px){
+	video{
+		height:10vh;
+		}
+		
+	#text1{
+	font-size:18px;
+	width:80%;
+	margin-top:100px;
+	}		
+	#text2{
+	font-size:18px;
+	width:80%;
+	margin-top:100px;
+	}
+	#text3{
+	font-size:18px;
+	width:80%;
+	margin-top:100px;
+	}
+}
